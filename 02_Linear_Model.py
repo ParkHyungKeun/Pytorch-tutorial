@@ -14,6 +14,7 @@ w=1.0
 def forward(x):
     return x*w
 
+#MSE Loss
 def loss(x,y):
     y_pred=forward(x)
     return (y_pred-y)**2
